@@ -24,7 +24,7 @@ restart:
 	docker-compose stop
 	docker-compose up -d
 
-sh:
+shell:
 	docker-compose run app sh
 
 stop:
